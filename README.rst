@@ -1,7 +1,7 @@
 django-receipts
 ===============
 
-This is sample code used in the Real Python article [Writing an Installable Django App](???). The article describes how to take an app from an existing Django project and make it a stand-alone installable package avilable on PyPI.
+This is sample code used in the Real Python article [Writing an Installable Django App](???). The article describes how to take an app from an existing Django project and make it a stand-alone installable package.
 
 Installable App
 ---------------
@@ -12,7 +12,7 @@ This app can be installed and used in your django project by:
 
 .. code-block:: bash
 
-    $ pip install realpython-django-receipts
+    $ pip install git+https://github.com/oluwafenyi/sample_app.git #https://github.com/oluwafenyi/sample_app
 
 
 Edit your `settings.py` file to include `'receipts'` in the `INSTALLED_APPS`
